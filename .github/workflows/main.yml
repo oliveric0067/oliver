@@ -14,8 +14,8 @@ permissions:
   contents: write # Grants permissions to write to the repo
 
 env:
-  GIT_USER_EMAIL: rxmxdhxni@gmail.com
-  GIT_USER_NAME: dante4rt
+  GIT_USER_EMAIL: olivereric0067@gmail.com
+  GIT_USER_NAME: oliveric0067
 
 jobs:
   ethereum_auto_commit:
@@ -31,12 +31,12 @@ jobs:
       - name: Run Ethereum script
         run: |
           chmod +x ethereum.sh
-          ./ethereum.sh
+          ./ethereum.sh /https://eth1.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/
 
       - name: Configure Git identity
         run: |
-          git config user.email "$GIT_USER_EMAIL"
-          git config user.name "$GIT_USER_NAME"
+          git config user.email "olivereric0067@gmail.com"
+          git config user.name "oliveric0067"
 
       - name: Commit changes
         run: |
@@ -61,12 +61,12 @@ jobs:
       - name: Run NEAR script
         run: |
           chmod +x near.sh
-          ./near.sh
+          ./near.sh /https://near.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/
 
       - name: Configure Git identity
         run: |
-          git config user.email "$GIT_USER_EMAIL"
-          git config user.name "$GIT_USER_NAME"
+          git config user.email "olivereric0067@gmail.com"
+          git config user.name "oliveric0067"
 
       - name: Commit changes
         run: |
@@ -91,12 +91,12 @@ jobs:
       - name: Run StarkNet script
         run: |
           chmod +x starknet.sh
-          ./starknet.sh
+          ./starknet.sh /https://rpc.starknet.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/
 
       - name: Configure Git identity
         run: |
-          git config user.email "$GIT_USER_EMAIL"
-          git config user.name "$GIT_USER_NAME"
+          git config user.email "oliveric0067@gmail.com"
+          git config user.name "oliveric0067"
 
       - name: Commit changes
         run: |
@@ -121,12 +121,12 @@ jobs:
       - name: Run Axelar script
         run: |
           chmod +x axelar.sh
-          ./axelar.sh
+          ./axelar.sh /https://tm.axelar.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/
 
       - name: Configure Git identity
         run: |
-          git config user.email "$GIT_USER_EMAIL"
-          git config user.name "$GIT_USER_NAME"
+          git config user.email "olivereric0067@gmail.com"
+          git config user.name "oliveric0067"
 
       - name: Commit changes
         run: |
