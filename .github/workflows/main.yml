@@ -31,7 +31,7 @@ jobs:
       - name: Run Ethereum script
         run: |
           chmod +x ethereum.sh
-          ./ethereum.sh /https://eth1.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/
+          ./ethereum.sh "https://eth1.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/"
 
       - name: Configure Git identity
         run: |
@@ -61,7 +61,7 @@ jobs:
       - name: Run NEAR script
         run: |
           chmod +x near.sh
-          ./near.sh /https://near.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/
+          ./near.sh "https://near.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/"
 
       - name: Configure Git identity
         run: |
@@ -91,7 +91,7 @@ jobs:
       - name: Run StarkNet script
         run: |
           chmod +x starknet.sh
-          ./starknet.sh /https://rpc.starknet.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/
+          ./starknet.sh "https://rpc.starknet.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/"
 
       - name: Configure Git identity
         run: |
@@ -121,7 +121,7 @@ jobs:
       - name: Run Axelar script
         run: |
           chmod +x axelar.sh
-          ./axelar.sh /https://tm.axelar.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/
+          ./axelar.sh "https://tm.axelar.lava.build/lava-referer-daee88c3-0136-4289-b6a1-a88fdc9be1cf/"
 
       - name: Configure Git identity
         run: |
